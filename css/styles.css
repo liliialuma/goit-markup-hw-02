@@ -1,0 +1,51 @@
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+}
+
+
+.body{--font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
+  .nav-logo{
+    font-weight: 700;
+    font-size: 18px;
+    /* line-height: 21px; */ 
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+  }
+
+  .nav-menu-list{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+
+
+  .nav-address{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+
+ }
+ .first-h{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 56px;
+
+ }
