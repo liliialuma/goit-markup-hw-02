@@ -14,10 +14,17 @@
 }
 
 
-.body{
+body{
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background: var(--white);
+  background-color: #fff;
+}
+ul, ol{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 .header{
@@ -53,12 +60,12 @@
   cursor: pointer;
 }
 
-.nav .nav-menu-list-iteam:hover,
-.nav .nav-menu-list-iteam:focus{
+.header-nav .nav-menu-list-iteam:hover,
+.header-nav .nav-menu-list-iteam:focus{
   color: var(--ocean);
 }
 
-.nav .nav-menu-list-iteam:active{
+.header-nav .nav-menu-list-iteam:active{
   color: var(--ocean);
 }
 
