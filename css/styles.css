@@ -16,7 +16,6 @@
 
 .body{
   --font-family: "Roboto", sans-serif;
-  --second-family: "Raleway", sans-serif;
   color: #434455;
   background: var(--white);
 }
@@ -24,15 +23,7 @@
 .header{
   background: var(--white);
 }
-.logo-web-header{
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  text-transform: uppercase;
-  color: var(--iris);
-}
-
-.logo-studio-header{
+.logo-header{
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
@@ -42,24 +33,41 @@
   color: var(--iris);
 }
 
+.studio-header{
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue)
+}
+
 .nav-menu-list{
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
   cursor: pointer;
 }
 
-.nav .nav-menu-list:hover,
-.nav .nav-menu-list:focus{
+.nav .nav-menu-list-iteam:hover,
+.nav .nav-menu-list-iteam:focus{
   color: var(--ocean);
 }
 
-.nav .nav-menu-list:active{
+.nav .nav-menu-list-iteam:active{
   color: var(--ocean);
 }
 
+.address{
+  font-family: var(--font-family);
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .nav-address{
   font-family: var(--font-family);
   font-size: 16px;
@@ -68,7 +76,8 @@
   cursor: pointer;
  }
 
-.nav-address .nav-email:hover {
+.nav-address .nav-email:hover,
+.nav-address .nav-email:focus {
   color: var(--ocean);
 }
 
@@ -192,8 +201,10 @@
   }
 
 .footer{
+  --second-family: "Raleway", sans-serif;
   background: var(--navy-blue);
 }
+
 .logo-footer{
   font-family: var(--second-family);
   font-weight: 700;
