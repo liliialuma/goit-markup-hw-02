@@ -15,8 +15,8 @@
 
 
 .body{
-  --font-family: "Roboto", sans-serif;
-  --second-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background: var(--white);
 }
 
@@ -48,7 +48,8 @@
   cursor: pointer;
 }
 
-.nav .nav-menu-list:hover{
+.nav .nav-menu-list:hover,
+.nav .nav-menu-list:focus{
   color: var(--ocean);
 }
 
@@ -76,7 +77,9 @@
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--white);
   background: var(--navy-blue);
   }
@@ -86,12 +89,14 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
   cursor: pointer;
   }
 
-.button-order-service:hover {
+.button-order-service:hover,
+.button-order-service:focus{
   background-color: var(--ocean);
   }
 
@@ -103,6 +108,10 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   color: var(--navy-blue);
 }
 
@@ -110,7 +119,9 @@
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
+  background-color: #FFFFFF;
   }
 .section-over-team{
   background: var(--cloud);
@@ -119,7 +130,10 @@
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--navy-blue);
   }
 
@@ -128,6 +142,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 .member-position{
@@ -167,25 +182,23 @@
 .footer{
   background: var(--navy-blue);
 }
-.logo-web-footer{
+.logo-footer{
   font-family: var(--second-family);
   font-weight: 700;
   text-transform: uppercase;
   font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--iris);
   }
 
-.logo-studio-footer{
-  font-family: var(--second-family);
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 18px;
-  line-height: 1.16667;
-  color: var(--cloud);
-  }
+.studio{
+  color: #f4f4fd;
+}
 .footer-text{
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 1.5;
-  color: var(--cloud);
+  color: #F4F4FD;
+  letter-spacing: 0.02em;
 }
