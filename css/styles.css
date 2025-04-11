@@ -15,7 +15,8 @@
 
 
 .body{
-  font-family: "Roboto", sans-serif;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
   color: #434455;
   background: var(--white);
 }
@@ -32,11 +33,13 @@
 }
 
 .logo-studio-header{
+  font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: var(--iris);
 }
 
 .nav-menu-list{
@@ -109,7 +112,7 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
   text-transform: capitalize;
   color: var(--navy-blue);
@@ -121,7 +124,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  background-color: #FFFFFF;
+  background-color: var(--white);
   }
 .section-over-team{
   background: var(--cloud);
@@ -135,8 +138,11 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
-  }
+}
 
+.member{
+  background-color: var(--white);
+}
 .member-name{
   font-family: var(--font-family);
   font-weight: 500;
@@ -149,6 +155,7 @@
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
@@ -156,7 +163,10 @@
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--navy-blue);
 }
 
@@ -169,6 +179,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
   }
 
@@ -176,6 +187,7 @@
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
   }
 
@@ -193,12 +205,12 @@
   }
 
 .studio{
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 .footer-text{
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 1.5;
-  color: #F4F4FD;
+  color: var(--cloud);
   letter-spacing: 0.02em;
 }
