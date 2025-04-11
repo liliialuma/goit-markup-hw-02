@@ -19,6 +19,10 @@
   --second-family: "Raleway", sans-serif;
   background: var(--white);
 }
+
+.header{
+  background: var(--white);
+}
 .logo-web-header{
   font-weight: 700;
   font-size: 18px;
@@ -41,6 +45,7 @@
   font-size: 16px;
   line-height: 1.5;
   color: var(--navy-blue);
+  cursor: pointer;
 }
 
 .nav .nav-menu-list:hover{
@@ -56,12 +61,16 @@
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate);
+  cursor: pointer;
  }
 
 .nav-address .nav-email:hover {
   color: var(--ocean);
 }
 
+.first-part{
+  background: var(--navy-blue);
+}
 
 .first-h{
   font-family: var(--font-family);
@@ -79,12 +88,16 @@
   line-height: 1.5;
   color: var(--white);
   background-color: var(--iris);
+  cursor: pointer;
   }
 
 .button-order-service:hover {
   background-color: var(--ocean);
   }
 
+.stong-points{
+  background: var(--white);
+}
 .our-strong-points-header{
   font-family: var(--font-family);
   font-weight: 500;
@@ -99,7 +112,9 @@
   line-height: 1.5;
   color: var(--slate);
   }
-
+.section-over-team{
+  background: var(--cloud);
+}
 .our-team{
   font-family: var(--font-family);
   font-weight: 700;
@@ -114,13 +129,13 @@
   font-size: 20px;
   line-height: 1.2;
   color: var(--navy-blue);
-  }
+}
 .member-position{
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate);
-  }
+}
 
 .our-profilo{
   font-family: var(--font-family);
@@ -128,7 +143,12 @@
   font-size: 36px;
   line-height: 1.11111;
   color: var(--navy-blue);
-  }
+}
+
+.profilo{
+ background: var(--white);
+}
+
 .our-profilo-h{
   font-family: var(--font-family);
   font-weight: 500;
@@ -143,7 +163,10 @@
   line-height: 1.5;
   color: var(--slate);
   }
-  
+
+.footer{
+  background: var(--navy-blue);
+}
 .logo-web-footer{
   font-family: var(--second-family);
   font-weight: 700;
